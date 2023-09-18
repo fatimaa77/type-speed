@@ -10,7 +10,7 @@ public class Main {
         globalData.read();
         boolean sing = true;
         int count = 0;
-        System.out.println("---------TYPE SPEED PROGRAM---------");
+        System.out.println("<<<---------TYPE SPEED PROGRAM--------->>>");
         while (sing){
             String rw = GlobalData.randomWordsDynamic.get(random.nextInt(GlobalData.randomWordsDynamic.getSize()));
             System.out.println(rw);
